@@ -1,0 +1,2 @@
+# Ruby on Rails: Demonstraion application
+This is the demonstration Applicvtion for [*Ruby on Rails Tutorial: Learn by Example*] (http://railstutorial.org) by [Fabio Scognamiglio](http://www.fabioscognamiglio.it).
