@@ -7,6 +7,7 @@ class MicropostsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @microposts }
+      format.json  { render :json => @microposts }
     end
   end
 
@@ -18,6 +19,7 @@ class MicropostsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @micropost }
+      format.json  { render :json => @micropost }
     end
   end
 
